@@ -2,10 +2,14 @@ CREATE DATABASE IF NOT EXISTS db_hamburgueria COLLATE utf8mb4_general_ci CHARSET
 
 USE db_hamburgueria;
 
+SHOW TABLES;
+
 CREATE TABLE iF NOT EXISTS tb_produto(
 	id_produto INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
-    preco FLOAT(5,2) NOT NULL
+    preco FLOAT(5,2) NOT NULL,
+    preco_custo FLOAT(5, 2) NOT NULL,
+    margem_lucro FLOAT(5, 2) NOT NULL
 )AUTO_INCREMENT = 1;
 
 CREATE TABLE IF NOT EXISTS tb_pedido(

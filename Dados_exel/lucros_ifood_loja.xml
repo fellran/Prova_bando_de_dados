@@ -1,0 +1,4 @@
+id_entrega,combos,preco,valor_entrega,valor_ifood,porcent_ifood,valor_retirado_ifood,lucro_loja
+1,SanduFrango,"50.00 $","5.00 $","2.00 $","5.00 $","0.1 $","1.9 $"
+2,CarneLouca,"30.00 $","10.00 $","2.00 $","5.00 $","0.1 $","1.9 $"
+3,sucao,"15.00 $","15.00 $","2.00 $","5.00 $","0.1 $","1.9 $"
